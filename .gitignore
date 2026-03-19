@@ -4,6 +4,28 @@ node_modules/
 # Build
 dist/
 build/
+lib/
 
 # VS Code nastavenia
 .vscode/
+
+# Logy
+*.log
+
+# Environment súbory
+.env
+.env.local
+.env.*.local
+
+# Test output / Playwright artifacts
+playwright-report/
+test-results/
+screenshots/
+
+# OS súbory
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
