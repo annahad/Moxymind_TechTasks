@@ -1,0 +1,17 @@
+{
+  "name": "zadanie_moxymind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:frontend": "npx playwright test tests/frontend",
+    "test:api": "npx playwright test tests/api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
